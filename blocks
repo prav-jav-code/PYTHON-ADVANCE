@@ -1,0 +1,13 @@
+n = 5
+g = 4
+a = 3
+for k in range (a):
+    c = 0
+    for i in range (0,g):
+        for j in range(0,n):
+            c = c+1
+            print("*",end=" ")
+        print()
+    print(c)
+    g=g-1
+    print("-------------------------")
